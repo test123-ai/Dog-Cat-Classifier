@@ -8,7 +8,7 @@ def predict(model, X):
     Y = np.argmax(Y, axis=1)
     Y = 'cat' if Y[0] == 0 else 'dog'
     return Y
-
+#check this
 if __name__ == '__main__':
     import sys
     img_dir = sys.argv[1]
